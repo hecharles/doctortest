@@ -1,9 +1,9 @@
 	Public non login 
 	get doctor simple data
-	http://localhost:5000/api/customer/doctor 
+	GET: http://localhost:5000/api/customer/doctor 
 
 	login and get token
-	http://localhost:5000/api/login     
+	POST: http://localhost:5000/api/login     
 	body json sample
 	{
 		"Email": "hendra@email.com",
@@ -11,7 +11,7 @@
 	}
 
 	register new customer
-	http://localhost:5000/api/register    
+	POST: http://localhost:5000/api/register    
 	body json sample
 	{
 		"Name": "Charles David",
@@ -27,8 +27,8 @@
 
 	check user
 	using header Authorization Bearer <token>
-	http://localhost:5000/api/customer/user         
+	GET: http://localhost:5000/api/customer/user         
 
 	get doctor customer
 	using header Authorization Bearer <token>
-	http://localhost:5000/api/customer/doctor
+	GET: http://localhost:5000/api/customer/doctor
