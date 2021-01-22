@@ -29,5 +29,5 @@
 	http://localhost:5000/api/customer/user         
 
 	get doctor customer
-	using header Authorization Bearer "token>"
+	using header Authorization Bearer <token>
 	http://localhost:5000/api/customer/doctor
