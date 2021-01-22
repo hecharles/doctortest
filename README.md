@@ -1,6 +1,6 @@
 	Public non login 
 	get doctor simple data
-	GET: http://localhost:5000/api/customer/doctor 
+	GET: http://localhost:5000/api/public/doctor 
 
 	login and get token
 	POST: http://localhost:5000/api/login     
