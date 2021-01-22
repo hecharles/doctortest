@@ -1,8 +1,10 @@
 	Public non login 
 	get doctor simple data
+	http://localhost:5000/api/customer/doctor 
 
-	http://localhost:5000/api/customer/doctor   
-	body json sample\
+	login and get token
+	http://localhost:5000/api/login     
+	body json sample
 	{
 		"Email": "hendra@email.com",
 		"Password": "123456"
@@ -21,8 +23,7 @@
 	}
 
 
-	login and get token
-	http://localhost:5000/api/login   
+
 
 	check user
 	using header Authorization Bearer <token>
